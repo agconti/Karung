@@ -7,9 +7,13 @@ To checkout my presentation click [here](http://nbviewer.ipython.org/urls/raw.gi
 
 ###Installation
 On Windows.
+
 Get and install [Virtual Box](https://www.virtualbox.org/).
+
 Get the [Cloudera Quick Start VM](https://ccp.cloudera.com/display/SUPPORT/Cloudera+QuickStart+VM). This contains Hadoop, Pig, Hive, HBase, and Zookeeper installed on RedHat Linux. 
-Start your VM and go to the terminal. Execute the following commands in root to install Python2.7:
+Start your VM and go to the terminal. 
+
+Execute the following commands in root to install Python2.7:
 ```
 yum groupinstall "Development tools"
 yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel
